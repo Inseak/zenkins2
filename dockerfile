@@ -1,3 +1,4 @@
+
 #사용할 베이스 이미지
 FROM openjdk:17
 
@@ -6,9 +7,3 @@ COPY target/hello-jenkins.jar hello-jenkins.jar
 
 #컨테이너 실행시 호출할 명령어
 CMD ["java","-jar","hello-jenkins.jar"]
-
-
-
-
-
-
